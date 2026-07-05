@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">A3 FoamTree overview</title>
+  <desc id="desc">Illustrative FoamTree-style Voronoi cells with grouped clusters, country labels, and palette colors.</desc>
+  <rect width="960" height="420" rx="18" fill="#f5f6f8"/>
+  <rect x="22" y="22" width="916" height="376" rx="14" fill="#ffffff" stroke="#d9dde3"/>
+  <g transform="translate(52 52)">
+    <path d="M0 0h190l18 64-54 82H0z" fill="#5fa7dc" stroke="#fff4e6" stroke-width="7"/>
+    <path d="M208 0h172l-30 128-142 18-18-82z" fill="#f18a45" stroke="#fff4e6" stroke-width="7"/>
+    <path d="M380 0h198l34 92-90 88-172-52z" fill="#77b94d" stroke="#fff4e6" stroke-width="7"/>
+    <path d="M612 0h248v132l-160 42-88-82z" fill="#e5c241" stroke="#fff4e6" stroke-width="7"/>
+    <path d="M0 146h154l72 72-36 132H0z" fill="#8f71bf" stroke="#fff4e6" stroke-width="7"/>
+    <path d="M154 146l196-18 92 98-68 124H190l36-132z" fill="#4db6ad" stroke="#fff4e6" stroke-width="7"/>
+    <path d="M442 226l80-46 178-6 32 176H374z" fill="#d76d8c" stroke="#fff4e6" stroke-width="7"/>
+    <path d="M700 174l160-42v218H732z" fill="#93b34a" stroke="#fff4e6" stroke-width="7"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="rgba(31,35,40,.78)">
+    <text x="112" y="146">Europe</text>
+    <text x="284" y="108">Asia</text>
+    <text x="510" y="128">Africa</text>
+    <text x="760" y="118">Americas</text>
+    <text x="98" y="284">Oceania</text>
+    <text x="304" y="286">Western Asia</text>
+    <text x="570" y="318">Caribbean</text>
+    <text x="788" y="294">Nordic</text>
+  </g>
+</svg>

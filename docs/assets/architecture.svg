@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">A3 FoamTree architecture</title>
+  <desc id="desc">Data flows from parsers through layout, rendering, interaction, and browser UI.</desc>
+  <rect width="960" height="320" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#5f6f83"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(40 70)">
+      <rect width="150" height="90" rx="10" fill="#eef6ff" stroke="#4f9ad6" stroke-width="2"/>
+      <text x="75" y="39" text-anchor="middle" font-size="17" font-weight="700" fill="#233142">Data</text>
+      <text x="75" y="64" text-anchor="middle" font-size="13" fill="#55606e">CSV / graph / fixtures</text>
+    </g>
+    <g transform="translate(230 70)">
+      <rect width="150" height="90" rx="10" fill="#fff6e8" stroke="#f18a45" stroke-width="2"/>
+      <text x="75" y="39" text-anchor="middle" font-size="17" font-weight="700" fill="#233142">Adapters</text>
+      <text x="75" y="64" text-anchor="middle" font-size="13" fill="#55606e">FoamTreeDatum[]</text>
+    </g>
+    <g transform="translate(420 70)">
+      <rect width="150" height="90" rx="10" fill="#f1faed" stroke="#77b94d" stroke-width="2"/>
+      <text x="75" y="39" text-anchor="middle" font-size="17" font-weight="700" fill="#233142">Layout</text>
+      <text x="75" y="64" text-anchor="middle" font-size="13" fill="#55606e">Delaunay + clipping</text>
+    </g>
+    <g transform="translate(610 70)">
+      <rect width="150" height="90" rx="10" fill="#f5efff" stroke="#8f71bf" stroke-width="2"/>
+      <text x="75" y="39" text-anchor="middle" font-size="17" font-weight="700" fill="#233142">Renderer</text>
+      <text x="75" y="64" text-anchor="middle" font-size="13" fill="#55606e">Canvas + themes</text>
+    </g>
+    <g transform="translate(800 70)">
+      <rect width="120" height="90" rx="10" fill="#eef9f7" stroke="#4db6ad" stroke-width="2"/>
+      <text x="60" y="39" text-anchor="middle" font-size="17" font-weight="700" fill="#233142">UI</text>
+      <text x="60" y="64" text-anchor="middle" font-size="13" fill="#55606e">Controls + events</text>
+    </g>
+    <g stroke="#5f6f83" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+      <path d="M190 115h34"/>
+      <path d="M380 115h34"/>
+      <path d="M570 115h34"/>
+      <path d="M760 115h34"/>
+    </g>
+    <g transform="translate(230 218)">
+      <rect width="500" height="54" rx="8" fill="#f5f6f8" stroke="#d9dde3"/>
+      <text x="250" y="34" text-anchor="middle" font-size="15" fill="#394656">Pure modules are covered by Vitest; browser wiring stays thin in main.ts.</text>
+    </g>
+  </g>
+</svg>

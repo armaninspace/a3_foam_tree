@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180" role="img" aria-labelledby="title desc">
+  <title id="title">Built-in theme examples</title>
+  <desc id="desc">Color strip showing five built-in A3 FoamTree themes.</desc>
+  <rect width="960" height="180" rx="16" fill="#f5f6f8"/>
+  <g font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#263241">
+    <g transform="translate(34 34)">
+      <text y="0">FoamTree Classic</text>
+      <rect y="18" width="38" height="72" fill="#5fa7dc"/><rect x="38" y="18" width="38" height="72" fill="#f18a45"/><rect x="76" y="18" width="38" height="72" fill="#77b94d"/><rect x="114" y="18" width="38" height="72" fill="#e5c241"/>
+    </g>
+    <g transform="translate(218 34)">
+      <text y="0">Fractal Bloom</text>
+      <rect y="18" width="38" height="72" fill="#18a999"/><rect x="38" y="18" width="38" height="72" fill="#f7b801"/><rect x="76" y="18" width="38" height="72" fill="#f35b04"/><rect x="114" y="18" width="38" height="72" fill="#3d348b"/>
+    </g>
+    <g transform="translate(402 34)">
+      <text y="0">D3 Categorical</text>
+      <rect y="18" width="38" height="72" fill="#4e79a7"/><rect x="38" y="18" width="38" height="72" fill="#f28e2c"/><rect x="76" y="18" width="38" height="72" fill="#e15759"/><rect x="114" y="18" width="38" height="72" fill="#76b7b2"/>
+    </g>
+    <g transform="translate(586 34)">
+      <text y="0">Sequential Lake</text>
+      <rect y="18" width="38" height="72" fill="#e0f3db"/><rect x="38" y="18" width="38" height="72" fill="#7bccc4"/><rect x="76" y="18" width="38" height="72" fill="#2b8cbe"/><rect x="114" y="18" width="38" height="72" fill="#084081"/>
+    </g>
+    <g transform="translate(770 34)">
+      <text y="0">Diverging Signal</text>
+      <rect y="18" width="38" height="72" fill="#4575b4"/><rect x="38" y="18" width="38" height="72" fill="#fee090"/><rect x="76" y="18" width="38" height="72" fill="#f46d43"/><rect x="114" y="18" width="38" height="72" fill="#7f3b08"/>
+    </g>
+  </g>
+</svg>
