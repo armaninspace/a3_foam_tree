@@ -4,7 +4,7 @@ A3 FoamTree is a modern, TypeScript-first FoamTree-style hierarchical cluster br
 
 The project was built as a clean-room, modern-tech-stack exploration inspired by Carrot Search FoamTree behavior and interaction patterns. It does not ship the original FoamTree runtime.
 
-![A3 FoamTree overview](docs/assets/foamtree-overview.svg)
+![A3 FoamTree overview](docs/assets/foamtree-overview.png)
 
 ## What It Does
 
