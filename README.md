@@ -163,18 +163,16 @@ npm ci
 npm run check
 ```
 
-## Pulling And Pushing
+## Git Workflow
 
-This repo includes small wrapper scripts:
+This repository does not include local pull/push wrapper scripts. Use normal Git commands from this directory:
 
 ```bash
-./pull.sh
-./push.sh
+git pull --ff-only origin main
+git push origin main --follow-tags
 ```
 
-`pull.sh` fetches and fast-forwards the current branch from `origin`.
-
-`push.sh` verifies the worktree is clean enough to push intentionally, then pushes the current branch to `origin`.
+When this repository is used as a submodule, parent-level automation can manage submodule pointer commits separately.
 
 ## Documentation
 
